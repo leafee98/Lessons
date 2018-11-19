@@ -20,7 +20,7 @@ abstract class Bill {
 }
 
 class WaterBill extends Bill{
-    private double[] rate = { 2.28, 2.5, 3.9 };
+    private double[] rate = { 5.0, 7.0, 9.0 };
     public WaterBill() {
         super(0);
     }
